@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xyz.redbooks.umme">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera2.full" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.PREVENT_POWER_KEY" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/googleMapDirectionKey" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Activity.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.RealtimeLocationTrack" />
+        <activity android:name=".Activity.ImageCaptureActivity" />
+        <activity android:name=".Activity.CameraRecorderActivity" />
+        <activity android:name=".Activity.BdPoliceStationActivity" />
+        <activity android:name=".Activity.ConfigActivity" />
+        <activity android:name=".Activity.SearchNearbyPlaceActivity" />
+        <activity android:name=".Activity.MapDirectionActivity" />
+        <activity android:name=".Activity.WomenAndChildComplain" />
+        <activity android:name=".Activity.VoktaOdikarActivity" />
+        <activity android:name=".Activity.MainActivity2" />
+        <activity
+            android:name=".Activity.CreateOrEditNote"
+            android:parentActivityName=".Activity.MainActivity2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.MainActivity2" />
+        </activity>
+        <activity
+            android:name=".Activity.CreateOrEditAlert"
+            android:parentActivityName=".Activity.MainActivity2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.MainActivity2" />
+        </activity>
+
+        <receiver android:name=".Activity.AlarmSetter">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".Activity.AlarmReceiver2"
+            android:enabled="true" />
+
+        <service
+            android:name=".core.MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.GeofenceTrasitionService"
+            android:enabled="true" />
+        <service
+            android:name=".Activity.AlarmService"
+            android:enabled="true" />
+
+        <provider
+            android:name=".Activity.ReminderContentProvider"
+            android:authorities="com.example.kyle.reminder"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:label="LentItemsProvider"
+            android:readPermission="com.example.kyle.reminder.READ"
+            android:writePermission="com.example.kyle.reminder.WRITE" />
+
+        <receiver
+            android:name=".broascast_receiver.AlarmReceiver"
+            android:process=":remote" />
+
+        <service android:name=".service.VideoRecorderService" />
+        <service
+            android:name=".service.ImageCaptureService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".core.BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".Activity.ReportActivity"></activity>
+    </application>
+
+</manifest>

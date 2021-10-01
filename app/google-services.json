@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "973325941554",
+    "firebase_url": "https://quick-safe.firebaseio.com",
+    "project_id": "quick-safe",
+    "storage_bucket": "quick-safe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973325941554:android:76d8e71bbf0e0972",
+        "android_client_info": {
+          "package_name": "xyz.redbooks.umme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973325941554-si04as6snegd1r0f8or6qb3v6ggfc6d5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.redbooks.umme",
+            "certificate_hash": "3240e95028df3a18f0b1de553c4fbee72ba8e46a"
+          }
+        },
+        {
+          "client_id": "973325941554-tbuvb2ariah77if7ll6g1te592igcli1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPo0hdK1BeGFXcebj-A4HQnM-XrLxYhk4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973325941554-tbuvb2ariah77if7ll6g1te592igcli1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

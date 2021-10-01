@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#3f3f3f"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ImageCaptureActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/startButton"
+                android:layout_width="wrap_content"
+
+                android:layout_marginTop="30dp"
+
+                android:layout_height="wrap_content"
+
+                android:text="   Start"
+                android:drawableStart="@drawable/cam"
+                android:drawableLeft="@drawable/cam"/>
+
+
+            <Button
+                android:id="@+id/stopButton"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cam"
+                android:drawableStart="@drawable/cam"
+
+                android:layout_marginTop="30dp"
+                android:text="    Stop" />
+
+
+        </LinearLayout>
+
+       <br.com.bloder.magic.view.MagicButton
+           android:layout_width="wrap_content"
+           android:id="@+id/configButton"
+           app:magic_button_size="50dp"
+           android:layout_marginTop="500dp"
+           android:layout_marginLeft="160dp"
+           app:hide_text="Setting"
+
+           app:icon_button_color="@color/colorAccent"
+           app:hide_text_size="12sp"
+           app:hide_text_color="#fff"
+           android:layout_height="wrap_content">
+
+
+       </br.com.bloder.magic.view.MagicButton>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/location"
+            android:checked="false"
+            android:title="Track location" />
+        <item android:id="@+id/search"
+            android:checked="false"
+            android:title="Nearby place" />
+        <item android:id="@+id/direction"
+            android:checked="false"
+            android:title="Road direction" />
+
+        <item android:id="@+id/camera"
+            android:checked="false"
+            android:title="Secret camera" />
+
+
+        <item android:id="@+id/video"
+            android:checked="false"
+            android:title="Secret video record" />
+
+
+        <item android:id="@+id/calling"
+            android:checked="false"
+            android:title="Calling 999" />
+
+        <item android:id="@+id/police"
+            android:checked="false"
+            android:title="Bangladesh police contact list" />
+
+        <item android:id="@+id/complain"
+            android:checked="false"
+            android:title="Resistance of women harasment" />
+        <item android:id="@+id/consume"
+            android:checked="false"
+            android:title="Consumer rights" />
+        <item android:id="@+id/reminder"
+            android:checked="false"
+            android:title="Remind you" />
+
+
+
+
+
+
+
+
+
+
+
+    </group>
+</menu>

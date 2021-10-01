@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.VoktaOdikarActivity">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/repor"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/report"
+        android:background="@drawable/sape"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="অভিযোগ দায়েরের পদ্ধতি"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ভোক্তা-অধিকার সংরক্ষণ আইন, ২০০৯ এর ধারা ৭৬ (১) অনুযায়ী, “যে কোন ব্যক্তি, যিনি, সাধারণভাবে একজন ভোক্তা বা ভোক্তা হইতে পারেন, এই অধ্যাদেশের অধীন ভোক্তা-অধিকার বিরোধী কার্য সম্পর্কে মহাপরিচালক বা এতদুদ্দেশ্যে মহাপরিচালকের নিকট ক্ষমতাপ্রাপ্ত ব্যক্তিকে অবহিত করিয়া লিখিত অভিযোগ দায়ের করিতে পারিবেন।"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="যেখানে অভিযোগ দায়ের করা যাবে"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="মহাপরিচালক, জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর, ১ কারওয়ান বাজার (টিসিবি ভবন-৮ম তলা), ঢাকা, ফোন: +৮৮০২ ৮১৮৯৪২৫"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="জাতীয় ভোক্তা অভিযোগ কেন্দ্র,  টিসিবি ভবন- ৯ম তলা, ১ কারওয়ান বাজার ঢাকা, ফোন: ০১৭৭৭ ৭৫৩৬৬৮, ই-মেইল: nccc@dncrp.gov.bd "
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="উপ পরিচালক, চট্টগ্রাম বিভাগীয় কার্যালয়, জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর, টিসিবি ভবন, বন্দরটিলা, চট্টগ্রাম, ফোন: ০৩১-৭৪১২১২"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="উপ পরিচালক, রাজশাহী বিভাগীয় কার্যালয়, জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর, শ্রীরামপুর, রাজশাহী, ফোন: +৮৮০৭ ২১৭৭২৭৭৪"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="উপ পরিচালক, খুলনা বিভাগীয় কার্যালয়, জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর, টিসিবি ভবন, শিববাড়ী মোড়, খুলনা, ফোন: ০৪১-৭২২৩১১"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="উপ পরিচালক, বরিশাল বিভাগীয় কার্যালয়, জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর, মহিলা ক্লাব ভবন, বরিশাল, ফোন: +৮৮০৪ ৩১৬২০৪২"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="উপ পরিচালক, সিলেট বিভাগীয় কার্যালয়, জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর, বিভাগীয় কমিশনারের কার্যালয়, সিলেট ফোন: ০৮২১-৮৪০৮৮৪"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="উপ পরিচালক, রংপুর বিভাগীয় কার্যালয়, জাতীয় ভোক্তা-অধিকার সংরক্ষণ অধিদপ্তর, নিউ ইঞ্জিনিয়ার পাড়া, রংপুর, ফোন: ০৫২১-৫৫৬৯১"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="প্রত্যেক জেলার জেলা ম্যাজিস্ট্রেট।"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="যেভাবে অভিযোগ দায়ের করতে হবে"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:text="দায়েরকৃত অভিযোগ অবশ্যই লিখিত হতে হবে।ফ্যাক্স, ই-মেইল, ওয়েব সাইট, ইত্যাদি ইলেক্ট্রনিক মাধ্যমে; বাঅন্য কোন উপায়ে;অভিযোগের সাথে পণ্সেবা ক্রয়ের রশিদ সংযুক্ত করতে হবে।অভিযোগকারী তাঁর পূর্ণাঙ্গ নাম, পিতা ও মাতার নাম, ঠিকানা, ফোন, ফ্যাক্স ও ই-মেইল নম্বর (যদি থাকে) এবং পেশা উল্লেখ করবেন।"/>
+
+
+</LinearLayout>
+
+
+
+
+</ScrollView>

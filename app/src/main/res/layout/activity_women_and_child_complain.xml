@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.WomenAndChildComplain">
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:id="@+id/style_text"
+        android:layout_height="wrap_content"
+        android:text="National Helpline Center's toll free helpline number 109 to prevent women and child abuse"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/com"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" বাংলাদেশ সরকার ও ডেনমার্ক সরকারের যৌথ উদ্যোগে পরিচালিত মহিলা ও শিশু বিষয়ক মন্ত্রনালয়ের আধীন নারী নির্যাতন প্রতিরোধকল্পে মাল্টিসেক্টরাল প্রোগামের প্রোগ্রামের আওতায় নারী নির্যাতন প্রতিরোধে ন্যাশনাল হেল্পলাইন সেন্টার প্রতিষ্ঠা করা হয়েছে।ন্যাশনাল হেল্পলাইন সেন্টারের উদ্দেশ্য :নির্যাতনের শিকার নারী ও শিশুর প্রয়োজনীয় সকল ধরনের সেবা এবং সহায়তা প্রদান নিশ্চিতকরন। ভিকটিম এবং অন্যান্য স্টেকহোল্ডারদের আইনি বিধি- বিধান সম্পর্কে দিক নির্দেশনা প্রদানসরকারী ও বেসরকারী পর্যায়ে বিরাজমান অন্যান্য হেল্পলাইন সম্পর্কে তথ্যপ্রদান।ভিকটিম এবং তার পরিবারের সদস্যদের মনোসামাজিক কাউন্সেলিং সেবা প্রদান।আইনসহায়তা প্রদানকারী সংস্থা এবং অন্যান্য সমাজকর্মীর মাধ্যমে বিশেষ পরিস্থিতিতে ভিকটিমকে উদ্ধারে সহায়তা প্রদান।
+
+সহায়তা পেতে যোগাযোগ করুনঃ
+
+নারী ও শিশু নির্যাতন প্রতিরোধে ন্যাশনাল হেল্পলাইন সেন্টার
+মহিলা বিষয়ক অধিদপ্তর ভবন (৮ম তলা)
+৩৭/৩ ইস্কাটন গার্ডেন রোড, ঢাকা-১০০০।
+
+টোল ফ্রি হেল্পলাইন নম্বরঃ ১০৯
+
+ই-মেইলঃ nhcvawc@ yahoo.com
+
+ওয়েবসাইটঃ www.mspvaw.org.bd ।
+        "/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Click to call"
+        android:layout_marginTop="90dp"
+        android:id="@+id/call_here"
+        android:background="@drawable/btn_selector"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+
+</ScrollView>
