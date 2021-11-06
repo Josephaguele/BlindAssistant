@@ -1,5 +1,16 @@
 # Sightless Helper: An Interactive Mobile Application for Blind Assistance and Safe Navigation
 
+<h4> Authors</h4>
+<ul>
+<li>Elias Hossain <sup>1</sup></li>
+<li>Khandker M Qaiduzzaman <sup>2</sup></li>
+<li>Mostafijur Rahman <sup>3</sup></li>
+</ul>
+
+<h4> Affiliation</h4>
+
+Daffodil International University, Bangladesh <sup>1,2,3</sup> <br> 
+
 
 # Abstract 
 
